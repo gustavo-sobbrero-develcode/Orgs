@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "orgs-cesta",
+    "name": "Orgs",
     "slug": "orgs-cesta",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,16 +17,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.develcode.Orgs",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#FFFFFF",
+        "package": "com.develcode.Orgs",
+        "versionCode": 1
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/adaptive-icon.png"
     }
   }
 }
